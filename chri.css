@@ -1,0 +1,25 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff5e6;
+        }
+        
+        h1 {
+            color: #8b4513;
+            text-align: center;
+            border-bottom: 3px solid #d4af37;
+        }
+        
+        ol {
+            background-color: #fffef7;
+            padding: 30px;
+            border-left: 5px solid #cd853f;
+        }
+        
+        li {
+            color: #654321;
+            margin: 15px 0;
+            line-height: 1.6;
+        }

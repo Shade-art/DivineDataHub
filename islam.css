@@ -1,0 +1,84 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e8e8e8;
+            line-height: 1.8;
+        }
+        
+        h1 {
+            color: #d4af37;
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 40px;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 u {
+            text-decoration: none;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 5px;
+        }
+        
+        i {
+            color: #f0d98c;
+            font-style: italic;
+        }
+        
+        b {
+            color: #d4af37;
+            font-weight: bold;
+        }
+        
+        ol {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        ol > li {
+            color: #e8e8e8;
+            margin: 25px 0;
+            font-size: 1.1em;
+            padding-left: 10px;
+        }
+        
+        ol > li::marker {
+            color: #d4af37;
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-top: 15px;
+            margin-left: 20px;
+            list-style: none;
+        }
+        
+        ul li {
+            color: #c9c9c9;
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        ul li::before {
+            content: "◆";
+            color: #d4af37;
+            position: absolute;
+            left: 0;
+        }
